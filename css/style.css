@@ -1,0 +1,24 @@
+.navbar-dark{
+	background-color: #4CA0C2;
+}
+
+.navbar-nav{
+	padding-top: 1.5em;
+	font-size: 1.3em;
+}
+
+
+
+.row-content {
+  margin: 200px auto;
+  padding: 50px, 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+#abt{
+	background-color: #4CA0C2;
+}
+
+.nav-item .active{
+	color:#A1CCB9;
+}
