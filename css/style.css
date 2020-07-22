@@ -5,20 +5,60 @@
 .navbar-nav{
 	padding-top: 1.5em;
 	font-size: 1.3em;
+	font-family: Roboto;
 }
 
+.jumbotron{
+	padding: 20em,auto;
+	font-size: 18px;
+}
 
+.carousel .carousel-item {
+    height: 30em; }
+ .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 30em; }
+body {
+  padding: 4em 0px 0px 0px;
+  z-index: 0; }
 
 .row-content {
-  margin: 200px auto;
-  padding: 50px, 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px; }
+  margin: 2em 0em 0em 0em;
+  padding: 2.5em, 0em 0em 0em;
+  border-bottom: 1px ridge
+  ;
+ }
 
 #abt{
 	background-color: #4CA0C2;
+	color: white;
 }
 
-.nav-item .active{
+.navbar-dark .navbar-nav .nav-item .active .nav-link > a{
 	color:#A1CCB9;
+}
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link:active,
+.navbar-dark .nav-item .nav-link:focus{
+	color:#A1CCB9;
+	font-weight: bold;
+
+}
+
+ .navbar-dark .navbar-nav .nav-item .nav-link >a:hover, .navbar-dark .navbar-nav .nav-item .active .nav-link > a:focus{
+
+ }
+
+ .footer{
+ 	margin:5.5em 0em 0em 0em;
+ 	padding: 2em 0em 1em 0em;
+ 	color:floralwhite;
+	background-color: #4CA0C2;
+}
+
+#me h5, #tech h5, #edu h5,#achieve h5 {
+ 
+ color:#4CA0C2;
 }
