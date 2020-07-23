@@ -1,9 +1,14 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
@@ -21,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/sofianeherin21/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/sofianeherin21/My-Portfolio#readme"
+  "homepage": "https://github.com/sofianeherin21/My-Portfolio#readme",
+  "description": ""
 }

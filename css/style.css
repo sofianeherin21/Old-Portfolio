@@ -21,6 +21,12 @@
       top: 0;
       left: 0;
       min-height: 30em; }
+#carouselBtn {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
 body {
   padding: 4em 0px 0px 0px;
   z-index: 0; }
