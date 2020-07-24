@@ -38,11 +38,6 @@ body {
   ;
  }
 
-#abt{
-	background-color: #4CA0C2;
-	color: white;
-}
-
 .navbar-dark .navbar-nav .nav-item .active .nav-link > a{
 	color:#A1CCB9;
 }
@@ -68,4 +63,57 @@ body {
 #me h5, #tech h5, #edu h5,#achieve h5, #hobby h5 {
  
  color:#4CA0C2;
+}
+#projects .card{
+	width: 20rem;
+	height: 25rem;
+}
+.card-img-top{
+	height: 12rem;
+}
+
+#abt .card{
+	background-color: #4CA0C2;
+	color: white;
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+ul.timeline > a{
+	color:white;
+}
+
+
+ul.timeline .col-12 > h6{
+	color: #4CA0C2;
 }

@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+            $('[data-toggle="tooltip"]').tooltip(); 
             $("#myCarousel").carousel({interval: 2000});
             $("#carouselBtn").click(function(){
                 if($("#carouselBtn").children("span").hasClass('fa-pause'))
