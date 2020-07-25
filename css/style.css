@@ -1,5 +1,6 @@
-.navbar-dark{
+.navbar-dark, #learn {
 	background-color: #4CA0C2;
+	color: floralwhite;
 }
 
 .navbar-nav{
@@ -116,4 +117,10 @@ ul.timeline > a{
 
 ul.timeline .col-12 > h6{
 	color: #4CA0C2;
+}
+
+.dropdown-menu,.dropdown-menu .dropdown-item{
+	background-color: #4CA0C2;
+	color: white;
+
 }
