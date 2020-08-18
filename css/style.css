@@ -65,10 +65,13 @@ body {
  
  color:#4CA0C2;
 }
-#projects .card{
+#project .card{
 	width: 20rem;
-	height: 25rem;
+	min-height: 27rem;
+  overflow:hidden;
+
 }
+
 .card-img-top{
 	height: 12rem;
 }
