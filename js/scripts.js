@@ -19,5 +19,16 @@ $(document).ready(function(){
                 
             })
 
+            
 
-        })
+})
+var list=document.querySelectorAll('.timeline li');
+console.log(list);
+var j=1;
+for(var i=0;i<list.length;i++)
+{
+    list[i].style.animationDelay+="${j}s";
+    j=j+2;
+
+}
+console.log(list[2].style.animationDelay);
