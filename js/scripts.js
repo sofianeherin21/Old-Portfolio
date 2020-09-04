@@ -19,6 +19,17 @@ $(document).ready(function(){
                 
             })
 
-            
-
 })
+items=document.querySelectorAll('.timeline .list');
+for(var i=0;i<items.length;i++)
+{
+    var toggleItemMove = getToggleItemMove( i );
+    setTimeout( toggleItemMove, i * 200 );
+}
+function getToggleItemMove( i ) {
+  var item = items[i];
+  return function() {
+    item.style.animation='fadeRight 2s';
+    item.style.animationFillMode='forwards'
+  }
+}

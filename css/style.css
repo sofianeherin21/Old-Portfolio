@@ -1,10 +1,16 @@
 .fadeIn{
 animation: fadeIn 2s;
+}
 
+.fadeRight{
+animation: fadeRight 2s;
+}
+.fadeLeft{
+animation: fadeLeft 2s;
 }
 #header{
   opacity: 0;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 -webkit-animation-delay:1s;
 animation-fill-mode: forwards;
 }
@@ -84,10 +90,14 @@ body {
  
  color:#4CA0C2;
 }
+.card{
+  box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 4px 1px;
+}
 #project .card{
 	width: 20rem;
 	min-height: 27rem;
   overflow:hidden;
+
 
 }
 #project .card:hover{
@@ -124,15 +134,27 @@ ul.timeline:before {
     height: 100%;
     
 }
-ul.timeline > li {
+ul.timeline li {
     margin: 20px 0;
     padding-left: 20px;
-    opacity: 0;
-    animation: fadeIn 2s;
+    
+    margin-left: 1rem;
     animation-fill-mode: forwards;
-
-
 }
+.timeline .list{
+  opacity: 0;
+}
+/*.timeline li:nth-child(odd)
+{
+  animation: fadeRight 2s;
+    animation-fill-mode: forwards;
+}
+.timeline li:nth-child(even)
+{
+  animation: fadeRight 2s;
+    animation-fill-mode: forwards;
+   
+}*/
 ul.timeline > li:before {
     content: ' ';
     background: white;
@@ -143,13 +165,11 @@ ul.timeline > li:before {
     left: 20px;
     width: 20px;
     height: 20px;
+     margin-right: 1rem;
     z-index: 400;
 
 }
 
-ul.timeline > a{
-	color:white;
-}
 
 
 ul.timeline .col-12 > h6{
@@ -166,10 +186,42 @@ ul.timeline .col-12 > h6{
   from{
 
     opacity: 0;
+    
 
   }
 
   to{
     opacity: 1;
+   
+  }
+}
+
+@keyframes fadeRight{
+  0%{
+
+    opacity: 0;
+    transform:translate3d(100%,0,0);
+
+  }
+  50%{
+    opacity: 0.7
+  }
+
+  100%{
+    opacity: 1;
+    transform:none;
+  }
+}
+@keyframes fadeLeft{
+  0%{
+
+    opacity: 0;
+    transform:translate3d(-100%,0,0);
+
+  }
+
+  100%{
+    opacity: 1;
+    transform:none;
   }
 }
