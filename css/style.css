@@ -3,7 +3,7 @@ animation: fadeIn 2s;
 }
 
 .fadeRight{
-animation: fadeRight 2s;
+animation: fadeRight 2s ease;
 }
 .fadeLeft{
 animation: fadeLeft 2s;
@@ -62,6 +62,9 @@ body {
   border-bottom: 1px ridge
   ;
  }
+ #me img{
+  box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 4px 1px;
+ }
 
 .navbar-dark .navbar-nav .nav-item .active .nav-link > a{
 	color:#A1CCB9;
@@ -95,10 +98,13 @@ body {
 }
 #project .card{
 	width: 20rem;
-	min-height: 27rem;
+	border-radius: 20px;
   overflow:hidden;
+  
 
-
+}
+#project .card-body {
+  text-align: center;
 }
 #project .card:hover{
   transform: scale(1.1);
@@ -111,8 +117,11 @@ body {
   
   opacity: 0.7;
 }
-.card-body .btn{
-  bottom: 20px;
+.badge{
+  margin: 0px 0.3rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20px;
+  background-color: lightblue;
 }
 #abt .card{
 	background-color: #4CA0C2;

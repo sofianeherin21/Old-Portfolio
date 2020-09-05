@@ -33,3 +33,17 @@ function getToggleItemMove( i ) {
     item.style.animationFillMode='forwards'
   }
 }
+
+// cards=document.querySelectorAll('#project .card');
+// for(var i=0;i<cards.length;i++)
+// {
+//     var toggleCardMove = getToggleCardMove( i );
+//     setTimeout( toggleCardMove, i * 500 );
+// }
+// function getToggleCardMove( i ) {
+//   var card = cards[i];
+//   return function() {
+//     card.style.animation='fadeRight 2s';
+//     card.style.animationFillMode='forwards'
+//   }
+// }
