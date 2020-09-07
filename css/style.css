@@ -153,22 +153,12 @@ ul.timeline li {
 .timeline .list{
   opacity: 0;
 }
-.list img{
+.timeline .list img{
   position: relative;
   height: 60%;
   width: 100%;
 }
-/*.timeline li:nth-child(odd)
-{
-  animation: fadeRight 2s;
-    animation-fill-mode: forwards;
-}
-.timeline li:nth-child(even)
-{
-  animation: fadeRight 2s;
-    animation-fill-mode: forwards;
-   
-}*/
+
 ul.timeline > li:before {
     content: ' ';
     background: white;
