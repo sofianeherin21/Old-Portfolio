@@ -153,7 +153,7 @@ ul.timeline li {
 .timeline .list{
   opacity: 0;
 }
-#box img{
+.list img{
   position: relative;
   height: 60%;
   width: 100%;
