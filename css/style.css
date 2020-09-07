@@ -153,6 +153,11 @@ ul.timeline li {
 .timeline .list{
   opacity: 0;
 }
+.list img{
+  position: relative;
+  height: 60%;
+  width: 100%;
+}
 /*.timeline li:nth-child(odd)
 {
   animation: fadeRight 2s;
